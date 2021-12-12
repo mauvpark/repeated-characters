@@ -1,0 +1,15 @@
+{
+    "scopeName": "repeated-characters.quoted-injection",
+    "injectionSelector": "string.quoted.double",
+    "patterns": [
+      {
+        "include": "#rc-quoted"
+      }
+    ],
+    "repository": {
+      "rc-quoted": {
+        "match": "(.)\\1{2}",
+        "name": "keyword.rc-quoted"
+      }
+    }
+  }

@@ -1,0 +1,21 @@
+{
+    "name": "repeated-characters",
+    "displayName": "Repeated Characters",
+    "description": "Colorize repeated characters",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Visualization"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "path": "./syntaxes/quoted-injection.json",
+                "scopeName": "repeated-characters.quoted-injection",
+                "injectTo": ["source.tsx"]
+            }
+        ]
+    }
+}
