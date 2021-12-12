@@ -1,5 +1,6 @@
 {
     "name": "repeated-characters",
+    "publisher": "mauvpark",
     "displayName": "Repeated Characters",
     "description": "Colorize repeated characters",
     "version": "0.0.1",
@@ -17,5 +18,9 @@
                 "injectTo": ["source.tsx"]
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mauvpark/repeated-characters"
     }
 }
