@@ -39,3 +39,8 @@ This extension colorize characters each 3 characters.
 ## NEXT
 
 - Syntax Highliting이 아닌 Semantic highliting을 활용해 regex와 조건문을 활용하여 상기의 문제점이 해결되도록 해야 함.
+
+## TODO
+
+- LICENSE
+- Semantic highliting
